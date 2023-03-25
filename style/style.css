@@ -1,0 +1,365 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    position: absolute;
+    margin: 30px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    text-decoration: none;
+    position: fixed;
+}
+.navbar .menu{
+    margin-left:150px;
+}
+.navbar a{
+    color: #D3D3D3;
+    font-size:bold ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar .menu{
+    font-size: 2em;
+    font-weight:bold;
+}
+span{
+    color:aqua;
+}
+.service-card-for{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    width: 85px;
+    height: 80px;
+    margin-bottom: -150px;
+    margin-left: 90px;
+}
+.navbar .nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+.navbar .nav-links ul{
+    display: flex;
+    font-size: large;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar .nav-links ul li{
+    margin: 0 15px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: large;
+    color: #747474;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    padding-top: 70px;
+}
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 150px;
+}
+.photo{
+    width: 90px;
+    height: 80px;
+    margin-bottom: 50px;
+}
+.introduction-title{
+    color: #5dc6b0;
+    margin-bottom: 40px;
+}
+.introduction-text{
+    display: flex;
+}
+.services{
+ display: flex;
+ padding: 30px;
+border-radius: 20px;
+justify-content: space-between;
+}
+.sevice-card-for{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service-card-patient{
+    background-color: aqua;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.service-card-doctor{
+    background-color: #4293db;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.service-card-clinics{
+    background-color:#070430	;
+    color:white;
+    border-radius: 8px;
+    margin-right: 290px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav{
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.gipo{
+    width: 50px;
+    height: auto;
+    margin-right: 100px;
+}
+.img{
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.pic{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 400px;
+} 
+.clinic{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.jameda{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.tutempo{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.jameda1{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.tutempo1{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.gipo1{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.feegow{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+.world{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #5dc6b0;
+    font-weight: lighter;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.container1{
+    background-color: #e5faf8;
+}
+.flag{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    float: right;
+    text-align: center;
+    margin: 40px;
+    border-radius: 20px;
+} 
+.flag h1{
+    width: 100%;
+    color: #5dc6b0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding: 10px;
+}
+.flag p{
+    width: 100%;
+    color: #747474;
+    font-size: medium;
+}
+.visits{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    float: right;
+    text-align: center;
+    margin: 50px;
+    border-radius: 20px;
+    float:right;
+}
+.visits h1{
+    width: 100%;
+    color: #5dc6b0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight:lighter;
+    padding: 20px;
+}
+.visits p{
+    width: 100%;
+    color: #747474;
+    font-size: medium;
+}
+.patients{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 40px;
+    text-align: center;
+    float: right;
+}
+.patients h1{
+    width: 100%;
+    color: #5dc6b0;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-weight: lighter;
+}
+.patients p{
+    width: 100%;
+    color: #747474;
+    font-size: medium;
+}
+.doctors{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    float: right;
+}
+.doctors h1{
+    width: 100%;
+    color: #5dc6b0;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.doctors p{
+    width: 100%;
+    color: #747474;
+    font-size: medium;
+}
+.inner{
+    float: right;
+}
+.inner h1{
+    width: 100%;
+    color: #5dc6b0;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 30px;
+}
+.inner p{
+    color: #747474;
+    font-size: medium;
+}
+.fed{
+    width: 500px;
+    height: 500px;
+    margin-left: -s100px;
+}
+.office{
+    text-align: center;
+    margin: 60px;
+}
+.office h1{
+    color: #5dc6b0;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 40px;
+}
+.office p{
+    color: #747474;
+    font-size: medium;
+}
+.container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+    transition: 1s;
+}
+.card{
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius:10px;
+    margin: 150px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.card:hover{
+    transform: scale(1.3);
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #fff;
+    z-index: 2px;
+    overflow: clip;
+}
+.join{
+    text-align: center;
+}
+.join h1{
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-weight: lighter;
+}
+footer{
+    text-align: center;
+    margin:100px
+}
+.for{
+    color: #747474;
+    font-size: medium;
+}
+.making{
+    text-decoration: underline;
+    color: #4293db;
+}
+footer p{
+    font-size: 15px;
+    color: #747474;
+}
